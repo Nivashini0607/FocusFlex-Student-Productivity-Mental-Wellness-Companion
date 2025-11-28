@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FocusFlex: Student Productivity & Mental Wellness Companion</title>
+    <meta
+      name="description"
+      content="FocusFlex is a minimal, futuristic productivity and mental wellness companion for students – with gamified routines, smart screen‑time insights, and mood‑aware planning."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-gradient"></div>
+    <header class="nav">
+      <div class="nav-left">
+        <div class="logo-orb"></div>
+        <span class="logo-text">FocusFlex</span>
+      </div>
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#ai-layers">AI Layers</a>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#testimonials">Stories</a>
+      </nav>
+      <button class="btn btn-ghost" id="nav-analyze-btn">Analyze Me</button>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero" id="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Student Productivity & Wellness OS</p>
+          <h1>
+            FocusFlex:
+            <span>Student Productivity &amp; Mental Wellness Companion</span>
+          </h1>
+          <p class="hero-subtitle">
+            Gamified routines • Smart screen‑time analysis • Mood‑aware insights.
+            Designed to keep your focus sharp and your mind calm.
+          </p>
+          <div class="hero-cta">
+            <button class="btn btn-primary" id="try-demo-btn">Try Demo</button>
+            <button class="btn btn-glass" id="hero-analyze-btn">Analyze Me</button>
+          </div>
+          <div class="hero-metrics">
+            <div class="metric-pill">
+              <span class="metric-label">Avg. Focus Score</span>
+              <span class="metric-value">+32%</span>
+            </div>
+            <div class="metric-pill">
+              <span class="metric-label">Students worldwide</span>
+              <span class="metric-value">12,840+</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual glass-card fade-in-up">
+          <div class="avatar-row">
+            <div class="avatar"></div>
+            <div class="avatar-text">
+              <span class="chip">You</span>
+              <p>"Help me balance finals prep with sleep."</p>
+            </div>
+          </div>
+          <div class="assistant-card">
+            <span class="chip chip-ai">FocusFlex AI</span>
+            <p>
+              I’ve built a 7‑day sprint: deep work blocks, device cool‑downs,
+              and micro‑reset breaks.
+            </p>
+          </div>
+          <div class="hero-mini-stats">
+            <div>
+              <span class="label">Today’s Focus</span>
+              <span class="value">82</span>
+            </div>
+            <div>
+              <span class="label">Screen‑Time Health</span>
+              <span class="value value-good">Balanced</span>
+            </div>
+            <div>
+              <span class="label">Mood</span>
+              <span class="value">🌤 Steady</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section class="section" id="features">
+        <header class="section-header">
+          <h2>Built for real student life</h2>
+          <p>
+            FocusFlex blends productivity science with mental wellness so you can
+            ship assignments without burning out.
+          </p>
+        </header>
+        <div class="feature-grid">
+          <article class="feature-card glass-card">
+            <div class="feature-icon">🎮</div>
+            <h3>Habit gamification</h3>
+            <p>
+              Turn routines into daily quests, streaks, and XP. Earn badges for
+              consistent focus and healthy downtime.
+            </p>
+          </article>
+          <article class="feature-card glass-card">
+            <div class="feature-icon">📊</div>
+            <h3>Screen‑time insights</h3>
+            <p>
+              Log your screen‑time and get clean breakdowns, toxicity alerts,
+              and balance suggestions.
+            </p>
+          </article>
+          <article class="feature-card glass-card">
+            <div class="feature-icon">🧠</div>
+            <h3>Mood AI analyzer</h3>
+            <p>
+              Track mood check‑ins. See patterns between stress, sleep, and
+              study blocks.
+            </p>
+          </article>
+          <article class="feature-card glass-card">
+            <div class="feature-icon">📅</div>
+            <h3>Smart study planner</h3>
+            <p>
+              Auto‑structure your week with deep work, light review, and
+              recovery days.
+            </p>
+          </article>
+          <article class="feature-card glass-card">
+            <div class="feature-icon">📥</div>
+            <h3>Weekly wellness report</h3>
+            <p>
+              Receive a calm weekly recap with tiny course‑corrections instead
+              of guilt.
+            </p>
+          </article>
+          <article class="feature-card glass-card">
+            <div class="feature-icon">✨</div>
+            <h3>Playful, not noisy</h3>
+            <p>
+              Micro‑animations and soft nudges keep you motivated without
+              overwhelming your brain.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- AI Layer Highlights -->
+      <section class="section" id="ai-layers">
+        <header class="section-header">
+          <h2>The AI stack behind FocusFlex</h2>
+          <p>
+            Three calm layers – from data to insight to daily decisions – built
+            to stay transparent and student‑friendly.
+          </p>
+        </header>
+        <div class="layer-grid">
+          <article class="layer-card glass-card">
+            <div class="step-badge">Layer 1</div>
+            <h3>Collects your context</h3>
+            <p>
+              Simple inputs only: study schedule, screen‑time logs, energy and
+              mood check‑ins.
+            </p>
+            <ul>
+              <li>Daily focus & mood check‑in</li>
+              <li>Manual screen‑time snapshots</li>
+              <li>Upcoming exams & deadlines</li>
+            </ul>
+          </article>
+          <article class="layer-card glass-card">
+            <div class="step-badge">Layer 2</div>
+            <h3>Understands patterns</h3>
+            <p>
+              Models your focus rhythm, overwhelm spikes, and recovery windows.
+            </p>
+            <ul>
+              <li>Detects burnout trends early</li>
+              <li>Maps apps to energy drain or gain</li>
+              <li>Connects sleep, mood, and output</li>
+            </ul>
+          </article>
+          <article class="layer-card glass-card">
+            <div class="step-badge">Layer 3</div>
+            <h3>Adapts your plan</h3>
+            <p>
+              Gently tunes your routines, break timing, and device boundaries so
+              they feel human, not robotic.
+            </p>
+            <ul>
+              <li>Dynamic study blocks & breaks</li>
+              <li>Screen‑time caps that flex with exams</li>
+              <li>Weekly reflection prompts</li>
+            </ul>
+          </article>
+        </div>
+        <div class="layer-progress glass-card">
+          <div class="progress-step active">
+            <span class="dot"></span>
+            <span>Data collected</span>
+          </div>
+          <div class="progress-step active">
+            <span class="dot"></span>
+            <span>Patterns mapped</span>
+          </div>
+          <div class="progress-step">
+            <span class="dot"></span>
+            <span>Plan adjusted</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Dashboard Preview -->
+      <section class="section" id="dashboard">
+        <header class="section-header">
+          <h2>Your day, distilled into one calm dashboard</h2>
+          <p>
+            Clean cards instead of chaos. See just what matters to steer your
+            next study block.
+          </p>
+        </header>
+        <div class="dashboard-grid">
+          <article class="dash-card glass-card">
+            <header>
+              <span class="chip">Focus Score</span>
+              <span class="value">78 / 100</span>
+            </header>
+            <p class="muted">Today’s average across all sessions.</p>
+            <div class="bar-track"><div class="bar-fill focus"></div></div>
+          </article>
+          <article class="dash-card glass-card">
+            <header>
+              <span class="chip">Screen‑Time Health</span>
+              <span class="value value-good">Balanced</span>
+            </header>
+            <p class="muted">Social vs. study vs. idle scroll.</p>
+            <div class="tag-row">
+              <span class="tag tag-good">Study 3.5h</span>
+              <span class="tag tag-warn">Social 2.1h</span>
+              <span class="tag">Entertainment 1.0h</span>
+            </div>
+          </article>
+          <article class="dash-card glass-card mood-card">
+            <header>
+              <span class="chip">Mood Trend</span>
+              <span class="value">🌤 Stable</span>
+            </header>
+            <p class="muted">Gentle upswing over the last 7 days.</p>
+            <div class="mood-graph">
+              <span></span><span></span><span></span><span></span><span></span
+              ><span></span><span></span>
+            </div>
+          </article>
+          <article class="dash-card glass-card">
+            <header>
+              <span class="chip">Productivity Score</span>
+              <span class="value">91</span>
+            </header>
+            <p class="muted">Weighted by deep work vs. context switching.</p>
+            <ul class="compact-list">
+              <li>3 deep work sprints completed</li>
+              <li>2 context switches avoided</li>
+              <li>1 intentional offline block</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- Analyze Me Section -->
+      <section class="section analyze" id="analyze">
+        <header class="section-header">
+          <h2>Try a soft, instant wellness snapshot</h2>
+          <p>
+            Share a tiny slice of your week. FocusFlex will sketch a playful
+            preview of your focus & wellness balance.
+          </p>
+        </header>
+        <div class="analyze-grid">
+          <form class="glass-card analyze-form" id="analyze-form">
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Alex" />
+            </div>
+            <div class="form-row">
+              <label for="studyHours">Study hours per day</label>
+              <input
+                id="studyHours"
+                name="studyHours"
+                type="number"
+                min="0"
+                max="16"
+                step="0.5"
+                placeholder="4.5"
+              />
+            </div>
+            <div class="form-row">
+              <label for="screenTime">Screen‑time (hours per day)</label>
+              <input
+                id="screenTime"
+                name="screenTime"
+                type="number"
+                min="0"
+                max="18"
+                step="0.5"
+                placeholder="6.0"
+              />
+            </div>
+            <div class="form-row">
+              <label for="mood">Current mood</label>
+              <select id="mood" name="mood">
+                <option value="">Select one</option>
+                <option value="low">😔 Drained</option>
+                <option value="okay">😐 Okay</option>
+                <option value="good">🙂 Steady</option>
+                <option value="great">😄 Energized</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="goal">Main goal this week</label>
+              <input
+                id="goal"
+                name="goal"
+                type="text"
+                placeholder="E.g. finish research draft, sleep by 11pm"
+              />
+            </div>
+            <button class="btn btn-primary full" type="submit">
+              Analyze Me
+            </button>
+            <p class="form-note">
+              This is a sample experience. No data is sent to any server.
+            </p>
+          </form>
+
+          <div class="glass-card analyze-output" id="analyze-output">
+            <p class="muted small">Preview</p>
+            <h3>Your focus snapshot will appear here</h3>
+            <p class="muted">
+              After you run an analysis, FocusFlex will surface an approximate
+              focus score, screen‑time health, and a 1‑line wellness insight.
+            </p>
+            <div class="output-grid">
+              <div>
+                <span class="label">Focus Score</span>
+                <span class="value" id="out-focus">–</span>
+              </div>
+              <div>
+                <span class="label">Screen‑Time Health</span>
+                <span class="value" id="out-screen">–</span>
+              </div>
+              <div>
+                <span class="label">Mood Tilt</span>
+                <span class="value" id="out-mood">–</span>
+              </div>
+            </div>
+            <p class="insight" id="out-insight">
+              Hint: keep daily screen‑time under your study hours and protect at
+              least one offline block.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="section" id="testimonials">
+        <header class="section-header">
+          <h2>Trusted by students who care about their mind</h2>
+          <p>
+            FocusFlex was shaped with real students across majors, time zones,
+            and neuro‑diverse needs.
+          </p>
+        </header>
+        <div class="testimonial-grid">
+          <article class="testimonial-card glass-card">
+            <p>
+              "For the first time, my planner doesn’t make me feel behind. The
+              dashboard gently nudges me instead of yelling at me."
+            </p>
+            <div class="testimonial-meta">
+              <span class="name">Aarav Menon</span>
+              <span class="role">CS student · Night owl</span>
+            </div>
+          </article>
+          <article class="testimonial-card glass-card">
+            <p>
+              "The mood graph helped me realize my ‘lazy’ days were actually
+              recovery days. I stopped overbooking myself."
+            </p>
+            <div class="testimonial-meta">
+              <span class="name">Maya Chen</span>
+              <span class="role">Design major · Studio heavy</span>
+            </div>
+          </article>
+          <article class="testimonial-card glass-card">
+            <p>
+              "I used FocusFlex during exam week and still slept 7 hours. The
+              streaks + soft reminders were shockingly effective."
+            </p>
+            <div class="testimonial-meta">
+              <span class="name">Leo Martínez</span>
+              <span class="role">Pre‑med · High pressure</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer-main glass-card">
+          <div>
+            <h3>FocusFlex</h3>
+            <p class="muted">
+              A calm, student‑first productivity & wellness companion.
+            </p>
+          </div>
+          <div class="footer-links">
+            <a href="mailto:hello@focusflex.app">Contact</a>
+            <a href="#">GitHub</a>
+          </div>
+        </div>
+        <p class="footer-bottom muted">
+          Built for hackathons and real semesters alike.
+        </p>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
